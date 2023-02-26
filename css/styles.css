@@ -8,7 +8,15 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-/*   Header */
+/* ---------------  Header */
+
+.header-main-box {
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  width: 1440px;
+  height: 72px;
+}
 
 .header-logo {
   font-family: "Raleway";
@@ -94,7 +102,7 @@ body {
 
 /* /Header */
 
-/* Button sections */
+/* ---------------Button sections */
 
 .button-item1 {
   font-family: "Roboto";
@@ -183,7 +191,7 @@ body {
 
 /* /Button sections */
 
-/* Portfolio Foto Section common */
+/* ---------Portfolio Foto Section common */
 
 .foto-section-h3 {
   font-weight: 500;
@@ -202,7 +210,7 @@ body {
 }
 /* /Portfolio Foto Section common */
 
-/* Web Studio */
+/* ---------------Web Studio */
 
 .main {
   background: #ffffff;
@@ -216,7 +224,7 @@ body {
   text-decoration: none;
 }
 
-/* Hero Section */
+/*---------------- Hero Section */
 
 .hero-background {
   background: #2e2f42;
@@ -246,9 +254,40 @@ body {
   background: #404bbf;
 }
 
+.hero-main-container {
+  width: 1440px;
+  height: 600px;
+  left: 5px;
+  top: 72px;
+  margin: 0 auto;
+}
+
+.hero-title-box {
+  margin: 0 auto;
+  width: 496px;
+  padding-top: 188px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.hero-button-box {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  width: 169px;
+  background: #4d5ae5;
+  border-radius: 4px;
+  text-align: center;
+}
+
 /* /Hero Section */
 
-/* Section 1 */
+/* ----------------Section 1 */
 
 .main-section1-h3 {
   font-weight: 500;
@@ -268,7 +307,7 @@ body {
 
 /* /Section 1 */
 
-/* Section 2 */
+/*---------------- Section 2 */
 .main-section2-h2 {
   font-size: 36px;
   line-height: 1.1;
@@ -277,7 +316,7 @@ body {
 }
 /* /Section 2 */
 
-/* Section 3*/
+/* -----------------Section 3*/
 
 .main-section3-h2 {
   font-size: 36px;
@@ -308,7 +347,7 @@ body {
 
 /* /Section 3*/
 
-/* Footer */
+/* -------------------Footer */
 
 .background-footer {
   background: #2e2f42;
