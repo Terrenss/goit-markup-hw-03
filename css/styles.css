@@ -11,12 +11,11 @@ body {
 /* ---------------  Header */
 
 .header-main-box {
-  box-sizing: border-box;
-  display: flex;
-  justify-content: flex-start;
   margin: 0 auto;
+  padding: 24px 156px;
   width: 1440px;
   height: 72px;
+  outline: 1px solid red;
 }
 
 .header-logo {
@@ -231,11 +230,17 @@ body {
   background: #2e2f42;
 }
 .hero-title {
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 188px;
+  width: 496px;
   font-style: normal;
   font-size: 56px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 
 .hero-button {
@@ -248,6 +253,12 @@ body {
   color: #ffffff;
   background: #4d5ae5;
   cursor: pointer;
+  margin-top: 64px;
+  margin-left: 667px;
+  margin-right: auto;
+  margin-bottom: 204px;
+  padding: 16px 32px;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -256,33 +267,19 @@ body {
 }
 
 .hero-main-container {
+  margin: 0 auto;
   width: 1440px;
   height: 600px;
-  left: 5px;
-  top: 72px;
-  margin: 0 auto;
 }
 
 .hero-title-box {
-  margin: 0 auto;
-  width: 496px;
-  padding-top: 188px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 48px;
   text-align: center;
 }
 
 .hero-button-box {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
   flex-direction: row;
   align-items: flex-start;
-  padding: 16px 32px;
   width: 169px;
-  background: #4d5ae5;
-  border-radius: 4px;
   text-align: center;
 }
 
