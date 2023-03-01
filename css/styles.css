@@ -10,12 +10,18 @@ body {
 }
 /* ---------------  Header */
 
-.header-main-box {
-  margin: 0 auto;
-  padding: 24px 156px;
-  width: 1440px;
+.header {
+  margin: 0;
   height: 72px;
   outline: 1px solid red;
+}
+
+.header-main-box {
+  margin: 0;
+  padding: 24px 156px;
+  /* height: 72px;
+  outline: 1px solid red; */
+  display: flex;
 }
 
 .header-logo {
@@ -27,6 +33,17 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
   text-transform: uppercase;
+}
+
+.header-list-box {
+  display: flex;
+  margin: left 156px;
+}
+
+.header-contacts {
+  display: flex;
+  margin-left: 332px;
+  margin-right: 156px;
 }
 
 .logo-color {
@@ -218,6 +235,15 @@ body {
 
 .list {
   list-style: none;
+  display: flex;
+}
+
+.adress-list1 {
+  display: flex;
+}
+
+.adres-list2 {
+  display: flex;
 }
 
 .link-deco {
