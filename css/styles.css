@@ -379,6 +379,14 @@ body {
 
 /* -------------------Footer */
 
+.footer-main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 1440px;
+  height: 310px;
+}
+
 .background-footer {
   background: #2e2f42;
 }
@@ -392,6 +400,9 @@ body {
   color: #f4f4fd;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-left: 156px;
+  padding-top: 100px;
 }
 .footer-text {
   font-weight: 400;
@@ -399,5 +410,8 @@ body {
   line-height: 1.5;
   color: #e7e9fc;
   letter-spacing: 0.02em;
+  width: 264px;
+  margin-left: 156px;
+  margin-bottom: 100px;
 }
 /* /Footer */
