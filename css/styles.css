@@ -13,15 +13,23 @@ body {
 .header {
   margin: 0;
   height: 72px;
-  outline: 1px solid red;
+}
+
+.navigate {
+  height: 55px;
+  width: 115px;
+  display: flex;
 }
 
 .header-main-box {
   margin: 0;
-  padding: 24px 156px;
-  /* height: 72px;
-  outline: 1px solid red; */
+  /* padding: 24px 156px; */
+  height: 72px;
+  /* outline: 1px solid red; */
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-wrap: nowrap; */
 }
 
 .header-logo {
@@ -33,11 +41,16 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
   text-transform: uppercase;
+  padding-left: 156px;
+  padding-top: 17px;
 }
 
 .header-list-box {
+  width: 261px;
   display: flex;
-  margin: left 156px;
+  /* margin: left 156px; */
+  padding-left: 76px;
+  padding-bottom: 10px;
 }
 
 .header-contacts {
@@ -56,6 +69,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
+  padding-right: 40px;
 }
 
 .header-list-item1:hover,
@@ -69,6 +83,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
+  padding-right: 40px;
 }
 
 .header-list-item2:hover,
@@ -236,14 +251,14 @@ body {
 .list {
   list-style: none;
   display: flex;
+  padding: 0;
 }
 
 .adress-list1 {
-  display: flex;
+  margin-right: 40px;
 }
 
 .adres-list2 {
-  display: flex;
 }
 
 .link-deco {
