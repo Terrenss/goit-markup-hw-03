@@ -23,13 +23,10 @@ body {
 
 .header-main-box {
   margin: 0;
-  /* padding: 24px 156px; */
   height: 72px;
-  /* outline: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* flex-wrap: nowrap; */
 }
 
 .header-logo {
@@ -322,6 +319,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
+  margin: 0;
 }
 
 .main-section1-text {
@@ -330,9 +328,22 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  width: 264px;
+  margin: 0;
+  padding-top: 8px;
 }
 
 /* /Section 1 */
+
+.section-1 {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-evenly;
+  gap: 24px;
+  margin-top: 120px;
+  margin-left: 0;
+}
 
 /*---------------- Section 2 */
 .main-section2-h2 {
@@ -340,6 +351,17 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  margin-bottom: 72px;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 /* /Section 2 */
 
@@ -350,6 +372,7 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
+  display: flex;
 }
 
 .our-team-h3 {
