@@ -181,7 +181,6 @@ body {
   background: #f4f4fd;
   cursor: pointer;
   margin-right: 24px;
-  /* width: 116px; */
   height: 48px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
@@ -269,6 +268,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
+  margin: 32px 0 8px 0;
+  padding-left: 16px;
 }
 
 .foto-section-text {
@@ -277,8 +278,39 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  margin: 0;
+  padding-left: 16px;
+  padding-bottom: 32px;
+}
+
+.foto-border {
+  border: 1px solid #e7e9fc;
+  background: #ffffff;
 }
 /* /Portfolio Foto Section common */
+
+/* Foto section 1 */
+
+.foto-section-1 {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin: 0 0 48px 0;
+}
+
+.foto-section-2 {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin: 0 0 48px 0;
+}
+
+.foto-section-3 {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin: 0 0 120px 0;
+}
 
 /* ---------------Web Studio */
 
