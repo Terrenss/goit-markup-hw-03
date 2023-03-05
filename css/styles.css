@@ -13,6 +13,7 @@ body {
 .header {
   margin: 0;
   height: 72px;
+  border: 1px solid #e7e9fc;
 }
 
 .navigate {
