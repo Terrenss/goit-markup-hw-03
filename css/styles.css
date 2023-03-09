@@ -5,31 +5,53 @@
   --secondary-text-color: #434455;
   --button-section-color: #4d5ae5;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.header-main-box {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 /* ---------------  Header */
 
 .header {
-  margin: 0;
-  height: 72px;
   border: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 
-.navigate {
-  height: 55px;
-  width: 115px;
+.header-navigation {
   display: flex;
 }
-
-.header-main-box {
-  margin: 0;
-  height: 72px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .header-logo {
   font-family: "Raleway";
   font-style: normal;
@@ -39,21 +61,20 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
   text-transform: uppercase;
-  padding-left: 156px;
-  padding-top: 17px;
+  margin-right: 76px;
 }
 
-.header-list-box {
-  width: 261px;
+.header-list {
   display: flex;
-  padding-left: 76px;
-  padding-bottom: 10px;
+  margin-left: 0 auto;
 }
 
 .header-contacts {
+  margin-left: auto;
+}
+
+.header-contacts-flex {
   display: flex;
-  margin-left: 332px;
-  margin-right: 156px;
 }
 
 .logo-color {
@@ -66,7 +87,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
-  padding-right: 40px;
+  margin-right: 40px;
 }
 
 .header-list-item1:hover,
@@ -80,7 +101,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
-  padding-right: 40px;
+  margin-right: 40px;
 }
 
 .header-list-item2:hover,
@@ -122,6 +143,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.adress-list1 {
+  margin-right: 40px;
 }
 
 .header-tel:hover,
@@ -317,16 +342,6 @@ body {
 
 .main {
   background: #ffffff;
-}
-
-.list {
-  list-style: none;
-  display: flex;
-  padding: 0;
-}
-
-.adress-list1 {
-  margin-right: 40px;
 }
 
 .link-deco {
