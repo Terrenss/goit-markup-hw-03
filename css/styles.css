@@ -296,7 +296,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-title-color);
   margin: 32px 0 8px 0;
-  padding-left: 16px;
+  margin-left: 16px;
 }
 
 .foto-section-text {
@@ -306,8 +306,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   margin: 0;
-  padding-left: 16px;
-  padding-bottom: 32px;
+  margin-left: 16px;
+  margin-bottom: 32px;
 }
 
 .foto-border {
@@ -318,25 +318,41 @@ body {
 
 /* Foto section 1 */
 
+.section1-main {
+  padding-bottom: 48px;
+}
+
 .foto-section-1 {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin: 0 0 48px 0;
+  margin: 0;
+}
+
+/* Foto section 2 */
+
+.section2-main {
+  padding-bottom: 48px;
 }
 
 .foto-section-2 {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin: 0 0 48px 0;
+  margin: 0;
+}
+
+/* Foto section 3 */
+
+.section3-main {
+  padding-bottom: 120px;
 }
 
 .foto-section-3 {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin: 0 0 120px 0;
+  margin: 0;
 }
 
 /* -----------------------Web Studio */
