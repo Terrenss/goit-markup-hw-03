@@ -1,5 +1,3 @@
-/* Portfolio */
-
 :root {
   --main-title-color: #2e2f42;
   --secondary-text-color: #434455;
@@ -156,7 +154,9 @@ body {
 
 /* /Header */
 
-/* ---------------Button sections */
+/* ---------------------Portfolio */
+
+/* ------Button sections */
 
 .button-section-main {
   display: flex;
@@ -338,7 +338,7 @@ body {
   margin: 0 0 120px 0;
 }
 
-/* ---------------Web Studio */
+/* -----------------------Web Studio */
 
 .main {
   background: #ffffff;
@@ -348,7 +348,7 @@ body {
   text-decoration: none;
 }
 
-/*---------------- Hero Section */
+/*------- Hero Section */
 
 .hero-background {
   background: #2e2f42;
@@ -357,8 +357,6 @@ body {
 }
 .hero-title {
   margin: 0 auto;
-  /* margin-left: auto;
-  margin-right: auto; */
   margin-bottom: 48px;
   width: 496px;
   font-style: normal;
@@ -386,11 +384,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-/* .button-type {
-  padding: 0;
-  margin: 0 auto;
-} */
 
 .hero-button:hover,
 .hero-button:focus {
@@ -438,7 +431,6 @@ body {
   display: flex;
   list-style: none;
   padding: 0;
-  /* justify-content: space-evenly; */
   gap: 24px;
   margin-left: 0;
 }
@@ -569,6 +561,5 @@ body {
   letter-spacing: 0.02em;
   width: 264px;
   margin-right: auto;
-  /* display: inline-block; */
 }
 /* /Footer */
