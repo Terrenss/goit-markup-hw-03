@@ -307,7 +307,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
-  margin: 32px 0 8px 0;
+  margin-bottom: 8px;
   margin-left: 16px;
 }
 
@@ -319,7 +319,7 @@ body {
   color: var(--secondary-text-color);
   margin: 0;
   margin-left: 16px;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 
 .foto-border {
