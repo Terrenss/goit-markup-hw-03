@@ -424,31 +424,38 @@ body {
   color: var(--secondary-text-color);
   width: 264px;
   margin: 0;
-  padding-top: 8px;
+  margin-top: 8px;
 }
 
 /* /Section 1 */
+
+.section1-box {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .section-1 {
   display: flex;
   list-style: none;
   padding: 0;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   gap: 24px;
-  margin-top: 120px;
   margin-left: 0;
 }
 
 /*---------------- Section 2 */
+
+.section2-box {
+  padding-bottom: 120px;
+}
+
 .main-section2-h2 {
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
-  margin: 0;
   display: flex;
   justify-content: center;
-  margin-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -462,10 +469,6 @@ body {
 /* -----------------Section 3*/
 
 .section3-main-box {
-  display: flex;
-  width: auto;
-  height: 732px;
-  align-items: flex-start;
 }
 
 .section3-list {
@@ -473,7 +476,6 @@ body {
   gap: 24px;
   justify-content: center;
   margin: 0;
-  /* height: 380px; */
 }
 
 .main-section3-h2 {
@@ -482,10 +484,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-title-color);
   margin: 0;
-  /* height: 40px; */
   display: flex;
   justify-content: center;
-  padding-top: 120px;
   margin-bottom: 72px;
   text-transform: capitalize;
 }
@@ -517,7 +517,6 @@ body {
 
 .team-section {
   background: #f4f4fd;
-  margin-top: 120px;
   padding-bottom: 120px;
 }
 
