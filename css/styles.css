@@ -158,18 +158,23 @@ body {
 
 /* ------Button sections */
 
-.button-section-main {
-  display: flex;
-  justify-content: center;
+.button-section-box {
   padding-top: 96px;
   padding-bottom: 72px;
 }
 
-.button-sections list {
+.button-main {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button-sections {
   display: flex;
   gap: 24px;
-  flex-direction: row;
-  align-items: flex-start;
+  /* flex-direction: row;
+  align-items: flex-start; */
 }
 
 .button-item1 {
@@ -181,7 +186,6 @@ body {
   color: var(--button-section-color);
   background: #f4f4fd;
   cursor: pointer;
-  margin-right: 24px;
   width: 69px;
   height: 48px;
   /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
@@ -206,7 +210,6 @@ body {
   color: var(--button-section-color);
   background: #f4f4fd;
   cursor: pointer;
-  margin-right: 24px;
   height: 48px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
@@ -228,7 +231,6 @@ body {
   color: var(--button-section-color);
   background: #f4f4fd;
   cursor: pointer;
-  margin-right: 24px;
   width: 78px;
   height: 48px;
   border: 1px solid #e7e9fc;
@@ -250,7 +252,6 @@ body {
   color: var(--button-section-color);
   background: #f4f4fd;
   cursor: pointer;
-  margin-right: 24px;
   width: 101px;
   height: 48px;
   border: 1px solid #e7e9fc;
@@ -459,9 +460,6 @@ body {
 /* /Section 2 */
 
 /* -----------------Section 3*/
-
-.section3-main-box {
-}
 
 .section3-list {
   display: flex;
