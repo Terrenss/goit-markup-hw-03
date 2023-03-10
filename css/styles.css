@@ -168,11 +168,11 @@ body {
 
 /* ---------------------Portfolio */
 
-/* ------Button sections */
+/* ------Button list */
 
-.button-section-box {
+.main-section-box {
   padding-top: 96px;
-  padding-bottom: 72px;
+  padding-bottom: 120px;
 }
 
 .button-main {
@@ -180,13 +180,12 @@ body {
   align-items: center;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 72px;
 }
 
 .button-sections {
   display: flex;
   gap: 24px;
-  /* flex-direction: row;
-  align-items: flex-start; */
 }
 
 .button-item1 {
@@ -297,7 +296,7 @@ body {
   background: #404bbf;
 }
 
-/* /Button sections */
+/* /Button list */
 
 /* ---------Portfolio Foto Section common */
 
@@ -325,6 +324,10 @@ body {
 .foto-border {
   border: 1px solid #e7e9fc;
   background: #ffffff;
+}
+
+.box {
+  margin-bottom: 48px;
 }
 /* /Portfolio Foto Section common */
 
