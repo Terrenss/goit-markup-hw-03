@@ -19,6 +19,9 @@ ul {
   padding: 0;
 }
 
+img {
+  display: block;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -59,6 +62,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
   text-transform: uppercase;
+}
+
+.header-logo-box {
   margin-right: 76px;
 }
 
@@ -85,6 +91,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
+}
+
+.header-li-1 {
   margin-right: 40px;
 }
 
@@ -99,6 +108,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
+}
+
+.header-li-2 {
   margin-right: 40px;
 }
 
@@ -505,7 +517,6 @@ body {
   display: flex;
   justify-content: center;
   margin: 0;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -518,12 +529,17 @@ body {
   display: flex;
   justify-content: center;
   margin: 0;
-  margin-bottom: 32px;
 }
 
 .team-section {
   background: #f4f4fd;
   padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.team-text-box {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-list-1 {
