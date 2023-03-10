@@ -352,12 +352,14 @@ body {
 
 .hero-background {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   margin: 0 auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 188px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-bottom: 48px;
   width: 496px;
   font-style: normal;
   font-size: 56px;
@@ -377,25 +379,28 @@ body {
   color: #ffffff;
   background: #4d5ae5;
   cursor: pointer;
-  margin-top: 64px;
-  margin-left: 667px;
-  margin-right: auto;
-  margin-bottom: 204px;
   padding: 16px 32px;
   border-radius: 4px;
   border: none;
   display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/* .button-type {
+  padding: 0;
+  margin: 0 auto;
+} */
 
 .hero-button:hover,
 .hero-button:focus {
   background: #404bbf;
 }
 
-.hero-main-container {
+.hero-main-box {
   margin: 0 auto;
-  width: 1440px;
-  height: 600px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* /Hero Section */
