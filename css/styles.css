@@ -31,6 +31,7 @@ body {
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
+  box-sizing: border-box;
 }
 
 .header-main-box {
@@ -175,17 +176,11 @@ body {
   padding-bottom: 120px;
 }
 
-.button-main {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 72px;
-}
-
 .button-sections {
   display: flex;
+  justify-content: center;
   gap: 24px;
+  margin-bottom: 72px;
 }
 
 .button-item1 {
@@ -307,7 +302,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-title-color);
   margin-bottom: 8px;
-  margin-left: 16px;
+  padding-left: 16px;
 }
 
 .foto-section-text {
@@ -317,8 +312,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   margin: 0;
-  margin-left: 16px;
-  /* margin-bottom: 32px; */
+  padding-left: 16px;
 }
 
 .foto-border {
@@ -326,48 +320,25 @@ body {
   background: #ffffff;
 }
 
-.box {
+.border-list {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
+
+.foto-section {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 0;
+  row-gap: 48px;
+  width: calc((100%-48px) / 3); */
+}
+
+.foto-item:not(:nth-child(3n)) {
+  margin-right: 24px;
+}
+.foto-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 48px;
-}
-/* /Portfolio Foto Section common */
-
-/* Foto section 1 */
-
-.section1-main {
-  padding-bottom: 48px;
-}
-
-.foto-section-1 {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  margin: 0;
-}
-
-/* Foto section 2 */
-
-.section2-main {
-  padding-bottom: 48px;
-}
-
-.foto-section-2 {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  margin: 0;
-}
-
-/* Foto section 3 */
-
-.section3-main {
-  padding-bottom: 120px;
-}
-
-.foto-section-3 {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  margin: 0;
 }
 
 /* -----------------------Web Studio */
