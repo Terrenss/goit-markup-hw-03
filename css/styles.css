@@ -302,7 +302,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-title-color);
   margin-bottom: 8px;
-  padding-left: 16px;
 }
 
 .foto-section-text {
@@ -312,7 +311,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   margin: 0;
-  padding-left: 16px;
 }
 
 .foto-border {
@@ -327,6 +325,10 @@ body {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
+}
+
+.team-text-box {
+  padding: 32px 16px;
 }
 
 .foto-item {
@@ -501,11 +503,6 @@ body {
   background: #f4f4fd;
   padding-bottom: 120px;
   padding-top: 120px;
-}
-
-.team-text-box {
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .team-list-1 {
